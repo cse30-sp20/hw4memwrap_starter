@@ -3,9 +3,9 @@
 
 void expect(const char *s, int got, int exp) {
 	if(got != exp) {
-		printf("%s FAILED exp %d got %d\n", s, got, exp);
+		printf("%s FAILED exp %d got %d\n", s, exp, got);
 	} else {
-		printf("%s Passed exp %d got %d\n", s, got, exp);
+		printf("%s Passed exp %d got %d\n", s, exp, got);
 	}
 }
 
