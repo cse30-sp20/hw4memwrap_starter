@@ -23,14 +23,14 @@ void *pokereate(size_t);
  */
 int pokelete(void *);
 
-/* Frees all apparated blocks and metadata, and empties the list. */
+/* Frees all pokereated blocks and metadata, and empties the list. */
 void pokego();
 
 /* Returns total number of currently-allocated blocks. */
 int totalBlocks();
 
 /*
- * Returns total number of currently-apparated bytes (does NOT
+ * Returns total number of currently-pokereated bytes (does NOT
  * include the memory used for metadata records).
  */
 size_t totalBytes();
