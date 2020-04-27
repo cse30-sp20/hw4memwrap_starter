@@ -1,10 +1,13 @@
 #include "memwrap.h"
-
-/* 
+/* Name: TODO
+ * PID : TODO
+ * cse30-sp20
+ */
+/*
  * Creates new node, sets mPtr to newly malloced memory,
  * inserts node into head of list, and returns mPtr.
  */
-void *apparate(size_t size){
+void *pokekreate(size_t size){
 	// TODO
 }
 
@@ -14,13 +17,13 @@ void *apparate(size_t size){
  * frees the mPtr, then removes mRec from list and frees it.
  * Returns 1 if successful, 0 if not.
  */
-int reducto(void *mPtr){
+int pokelete(void *mPtr){
 	// TODO
 }
   
 
 /* Frees all apparated blocks and metadata, and empties the list. */
-void reductoMaximo() {
+void pokego() {
 	// TODO
 }
 
