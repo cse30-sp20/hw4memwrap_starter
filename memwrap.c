@@ -7,7 +7,7 @@
  * Creates new node, sets mPtr to newly malloced memory,
  * inserts node into head of list, and returns mPtr.
  */
-void *pokekreate(size_t size){
+void *pokereate(size_t size){
 	// TODO
 }
 
